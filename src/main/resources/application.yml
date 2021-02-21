@@ -1,0 +1,6 @@
+spring.cloud.stream:
+  function.definition: messageListen;
+  bindings:
+    messageListen-in-0:
+      group: julio.group
+      destination: julio.message
